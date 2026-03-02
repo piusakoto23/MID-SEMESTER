@@ -1,0 +1,167 @@
+# EEE227 MID SEMESTER CAPSTONE PROJECT
+# HND ELECTRICAL ENGINEERING LEVEL 200
+# Digital Attendance System
+
+A console-based digital attendance system built in C++ to replace paper-based attendance taking in lecture halls.
+
+## Features
+
+### Student Management
+
+- **Register students** with index number and full name
+- **View all registered students** in a formatted list
+- **Search students** by index number
+
+### Attendance Session Management
+
+- **Create lecture sessions** with course code, date, start time, and duration
+- **Mark attendance** for all students (Present / Absent / Late)
+- **Update attendance records** for individual students
+
+### Reports and Summary
+
+- **Attendance list** — view full attendance for any session
+- **Summary counts** — see totals for Present, Absent, and Late per session
+
+### File Storage (Persistent Data)
+
+- Student records saved to `students.txt`
+- Each session saved to `session_<CourseCode>_<Date>.txt`
+- Data loads automatically on startup
+
+## How to Build
+
+### Using g++ (MinGW)
+
+```bash
+g++ -o attendance main.cpp
+./attendance
+```
+
+## Menu Options
+
+| Option | Description                        |
+| ------ | ---------------------------------- |
+| 1      | Register a new student             |
+| 2      | View all registered students       |
+| 3      | Search for a student by index      |
+| 4      | Create an attendance session       |
+| 5      | Mark attendance for a session      |
+| 6      | Update an attendance record        |
+| 7      | View attendance list for a session |
+| 8      | View attendance summary            |
+| 9      | Save all data to files             |
+| 10     | Load a session from file           |
+| 0      | Save and exit                      |
+
+## File Formats
+
+### students.txt
+
+```
+INDEX001,John Doe
+INDEX002,Jane Smith
+```
+
+### session_EE201_2026_02_20.txt
+
+```
+EE201,2025-05-20,09:00,70
+INDEX001,Present
+INDEX002,Late
+```
+
+## Requirements
+
+- C++ compiler with C++11 support
+- Windows OS
+
+## Author
+
+** Pius Akoto
+Student ID: 01240949D
+HND Electrical Engineering  
+Accra Technical University# EEE227 MID SEMESTER CAPSTONE PROJECT
+# HND ELECTRICAL ENGINEERING LEVEL 200
+# Digital Attendance System
+
+A console-based digital attendance system built in C++ to replace paper-based attendance taking in lecture halls.
+
+## Features
+
+### Student Management
+
+- **Register students** with index number and full name
+- **View all registered students** in a formatted list
+- **Search students** by index number
+
+### Attendance Session Management
+
+- **Create lecture sessions** with course code, date, start time, and duration
+- **Mark attendance** for all students (Present / Absent / Late)
+- **Update attendance records** for individual students
+
+### Reports and Summary
+
+- **Attendance list** — view full attendance for any session
+- **Summary counts** — see totals for Present, Absent, and Late per session
+
+### File Storage (Persistent Data)
+
+- Student records saved to `students.txt`
+- Each session saved to `session_<CourseCode>_<Date>.txt`
+- Data loads automatically on startup
+
+## How to Build
+
+### Using g++ (MinGW)
+
+```bash
+g++ -o attendance main.cpp
+./attendance
+```
+
+## Menu Options
+
+| Option | Description                        |
+| ------ | ---------------------------------- |
+| 1      | Register a new student             |
+| 2      | View all registered students       |
+| 3      | Search for a student by index      |
+| 4      | Create an attendance session       |
+| 5      | Mark attendance for a session      |
+| 6      | Update an attendance record        |
+| 7      | View attendance list for a session |
+| 8      | View attendance summary            |
+| 9      | Save all data to files             |
+| 10     | Load a session from file           |
+| 0      | Save and exit                      |
+
+## File Formats
+
+### students.txt
+
+```
+INDEX001,John Doe
+INDEX002,Jane Smith
+```
+
+### session_EE201_2026_02_20.txt
+
+```
+EE201,2025-05-20,09:00,70
+INDEX001,Present
+INDEX002,Late
+```
+
+## Requirements
+
+- C++ compiler with C++11 support
+- Windows OS
+
+## Author
+
+** Pius Akoto
+Student ID: 01240949D
+HND Electrical Engineering  
+Accra Technical University
